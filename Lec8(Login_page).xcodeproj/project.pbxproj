@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0A6CDD29824FC900012DAB /* AccountCreated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A6CDC29824FC900012DAB /* AccountCreated.swift */; };
+		BE0A6CDF29825F4200012DAB /* ForgotPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A6CDE29825F4200012DAB /* ForgotPasswordPage.swift */; };
+		BE3CA27A297BC37700D0E29F /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3CA279297BC37700D0E29F /* CreateAccount.swift */; };
 		BE827619297923A6003C7B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827618297923A6003C7B75 /* AppDelegate.swift */; };
 		BE82761B297923A6003C7B75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82761A297923A6003C7B75 /* SceneDelegate.swift */; };
 		BE82761D297923A6003C7B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82761C297923A6003C7B75 /* ViewController.swift */; };
 		BE827620297923A6003C7B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE82761E297923A6003C7B75 /* Main.storyboard */; };
 		BE827622297923A7003C7B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE827621297923A7003C7B75 /* Assets.xcassets */; };
 		BE827625297923A7003C7B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE827623297923A7003C7B75 /* LaunchScreen.storyboard */; };
+		BEDD7F0E2979C99C0050580D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD7F0D2979C99C0050580D /* ViewController2.swift */; };
+		BEDD7F102979D5370050580D /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD7F0F2979D5370050580D /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE0A6CDC29824FC900012DAB /* AccountCreated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreated.swift; sourceTree = "<group>"; };
+		BE0A6CDE29825F4200012DAB /* ForgotPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPage.swift; sourceTree = "<group>"; };
+		BE3CA279297BC37700D0E29F /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		BE827615297923A6003C7B75 /* Lec8(Login_page).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lec8(Login_page).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE827618297923A6003C7B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE82761A297923A6003C7B75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		BE827621297923A7003C7B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE827624297923A7003C7B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE827626297923A7003C7B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD7F0D2979C99C0050580D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BEDD7F0F2979D5370050580D /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,14 @@
 				BE827618297923A6003C7B75 /* AppDelegate.swift */,
 				BE82761A297923A6003C7B75 /* SceneDelegate.swift */,
 				BE82761C297923A6003C7B75 /* ViewController.swift */,
+				BE0A6CDE29825F4200012DAB /* ForgotPasswordPage.swift */,
+				BE3CA279297BC37700D0E29F /* CreateAccount.swift */,
+				BEDD7F0D2979C99C0050580D /* ViewController2.swift */,
 				BE82761E297923A6003C7B75 /* Main.storyboard */,
+				BE0A6CDC29824FC900012DAB /* AccountCreated.swift */,
 				BE827621297923A7003C7B75 /* Assets.xcassets */,
 				BE827623297923A7003C7B75 /* LaunchScreen.storyboard */,
+				BEDD7F0F2979D5370050580D /* LaunchScreen.swift */,
 				BE827626297923A7003C7B75 /* Info.plist */,
 			);
 			path = "Lec8(Login_page)";
@@ -139,6 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE82761D297923A6003C7B75 /* ViewController.swift in Sources */,
+				BE3CA27A297BC37700D0E29F /* CreateAccount.swift in Sources */,
+				BE0A6CDD29824FC900012DAB /* AccountCreated.swift in Sources */,
+				BEDD7F0E2979C99C0050580D /* ViewController2.swift in Sources */,
+				BE0A6CDF29825F4200012DAB /* ForgotPasswordPage.swift in Sources */,
+				BEDD7F102979D5370050580D /* LaunchScreen.swift in Sources */,
 				BE827619297923A6003C7B75 /* AppDelegate.swift in Sources */,
 				BE82761B297923A6003C7B75 /* SceneDelegate.swift in Sources */,
 			);
